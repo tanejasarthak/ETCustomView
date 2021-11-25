@@ -1,22 +1,24 @@
 {
   "name": "ETCustomView",
   "version": "0.1.0",
-  "summary": "A short description of ETCustomView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Sarthak.taneja/ETCustomView",
+  "summary": "ETCustomView is a custom UIView.",
+  "description": "'ETCustomView is a custom UIView.'",
+  "homepage": "https://github.com/tanejasarthak/ETCustomView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Sarthak.taneja": "sarthak.taneja@etmoney.com"
+    "Sarthak Taneja": "tanejasarthak138@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Sarthak.taneja/ETCustomView.git",
+    "git": "https://github.com/tanejasarthak/ETCustomView.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
-  "source_files": "ETCustomView/Classes/**/*"
+  "source_files": "Source/**/*.swift",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

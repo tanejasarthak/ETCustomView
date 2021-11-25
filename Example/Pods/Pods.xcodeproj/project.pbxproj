@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17AA1134EB4A317B8D1201731DC6C6FF /* ETCustomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5879D18775C6775F2AE90BA9AA9A38 /* ETCustomView-dummy.m */; };
 		1D461C80E7EDD375A0BD1071000340BD /* Pods-ETCustomView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D2F3C065AA2DD64CFB61DA94559546 /* Pods-ETCustomView_Example-dummy.m */; };
 		2722D7DE3192AD6E3651AEE54CAD47D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		47BBE3DE5E513B4AE3D6F82F4BD7AC49 /* Pods-ETCustomView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C91E6E2C309A295057DE57C3C27031C4 /* Pods-ETCustomView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60972CA9274F8D4D00D245D1 /* ETView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60972CA8274F8D4D00D245D1 /* ETView.swift */; };
-		6A84EC37B39B8959E6E6D0155CD9E9DC /* ETCustomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F51085224F59699AB95962DB88EFD8 /* ETCustomView-dummy.m */; };
-		A47B3D576E3E70C4B2B4353CE369B1B0 /* ETCustomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0EDA253B0ED2A8540C8A35E875EB8F /* ETCustomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47B3D576E3E70C4B2B4353CE369B1B0 /* ETCustomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC8B003566380782BDE35E93C00D432 /* ETCustomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B09A312C19E45F6A4D11B4CDC102628B /* Pods-ETCustomView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF22F7F4577E5836FF677C7CC1D5C52 /* Pods-ETCustomView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D234292C90B75E0D6D7C65F85FEB5223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DAF790C9EC60CFFC446B24C95882A73B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E3837A6764CF11B773F89110FB7C517B /* Pods-ETCustomView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1F677EE541938EDF9E054F7E80BFC /* Pods-ETCustomView_Tests-dummy.m */; };
+		EB8E3231C8880DF9F8650815ECF3DA55 /* ETView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C38807D9B0D635B5F20853280C517 /* ETView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +38,37 @@
 
 /* Begin PBXFileReference section */
 		02FF45B795A53344C537809BF1692FF1 /* Pods-ETCustomView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ETCustomView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0CC8B003566380782BDE35E93C00D432 /* ETCustomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ETCustomView-umbrella.h"; sourceTree = "<group>"; };
 		0CF22F7F4577E5836FF677C7CC1D5C52 /* Pods-ETCustomView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ETCustomView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0D29454F1792BFE0A8D668EBDF8D12EE /* Pods-ETCustomView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ETCustomView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1E176874E5F8E57C9B1EFC59F3A2E0B8 /* Pods-ETCustomView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1FE56591BB0D6D23A88F78721681ADBA /* ETCustomView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ETCustomView-Info.plist"; sourceTree = "<group>"; };
 		23549D9A0035A8F3AC641EC0B44DE526 /* Pods-ETCustomView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46BADE40285FD980FC35A636A41846AC /* Pods-ETCustomView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		552ACAF353565D525CF6E768022B3D43 /* ETCustomView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ETCustomView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		56D2F3C065AA2DD64CFB61DA94559546 /* Pods-ETCustomView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ETCustomView_Example-dummy.m"; sourceTree = "<group>"; };
-		5A68E93E003D662CF831A8C622C725CC /* ETCustomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ETCustomView-prefix.pch"; sourceTree = "<group>"; };
 		5A9863B1D07AA29DEB0D0111D00DF653 /* Pods-ETCustomView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ETCustomView_Tests.modulemap"; sourceTree = "<group>"; };
 		5C2D2DB346F23797489C37B7D512F86B /* Pods-ETCustomView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ETCustomView_Example.modulemap"; sourceTree = "<group>"; };
-		60972CA8274F8D4D00D245D1 /* ETView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETView.swift; sourceTree = "<group>"; };
-		6380CCD2D41987E3DB5EDCC8641E258E /* ETCustomView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ETCustomView.debug.xcconfig; sourceTree = "<group>"; };
+		5F813896706ADB2D994F02580604E83A /* ETCustomView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ETCustomView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		64D0E420496E260A0BB86006E1A90870 /* Pods-ETCustomView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ETCustomView_Example"; path = Pods_ETCustomView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9C38807D9B0D635B5F20853280C517 /* ETView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ETView.swift; path = Source/ETView.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		835E3C5B69C4DA2D9A2DCAA68FFCFD13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8381365DD70CA9718B149642FC50B562 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7E5B5D318DA7A9997607A7EAD6FB6D1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		81DAE690BE6E2D605670F65B2AF5A4DB /* ETCustomView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ETCustomView.debug.xcconfig; sourceTree = "<group>"; };
 		8614F49D4760D9BA7B709DFA06CDC95A /* Pods-ETCustomView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A52F75BB4B5F85CA27CE1BC8F2C5F936 /* ETCustomView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ETCustomView.release.xcconfig; sourceTree = "<group>"; };
-		A8F51085224F59699AB95962DB88EFD8 /* ETCustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ETCustomView-dummy.m"; sourceTree = "<group>"; };
+		8D163838ABF5DDD601B0603F4FC9B33C /* ETCustomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ETCustomView-prefix.pch"; sourceTree = "<group>"; };
+		930B9AC9F34145603EB610DF6C53BA5E /* ETCustomView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ETCustomView.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B10532056BCB0ADCCC0226D5D96409D2 /* Pods-ETCustomView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Example-Info.plist"; sourceTree = "<group>"; };
 		B9A1F677EE541938EDF9E054F7E80BFC /* Pods-ETCustomView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ETCustomView_Tests-dummy.m"; sourceTree = "<group>"; };
+		C12269E1CF2ED5A40E4CAE9C160D54E8 /* ETCustomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ETCustomView.modulemap; sourceTree = "<group>"; };
 		C1958ADEB9613B5B6B9C24B32F21E85E /* Pods-ETCustomView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ETCustomView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C33C2A292DEA593F25283CCB1D193A5F /* Pods-ETCustomView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5F1889303E0A16404658A3CA3C10F97 /* Pods-ETCustomView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C91E6E2C309A295057DE57C3C27031C4 /* Pods-ETCustomView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ETCustomView_Example-umbrella.h"; sourceTree = "<group>"; };
 		CD90EBDA06B36094DD3221706852B96C /* Pods-ETCustomView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ETCustomView_Tests"; path = Pods_ETCustomView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D39FAA0030F0F2AC3BC5EB775F71FCDC /* ETCustomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ETCustomView.modulemap; sourceTree = "<group>"; };
-		D6466C2DD509960FB300057730D31C58 /* ETCustomView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ETCustomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED0EDA253B0ED2A8540C8A35E875EB8F /* ETCustomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ETCustomView-umbrella.h"; sourceTree = "<group>"; };
+		D6466C2DD509960FB300057730D31C58 /* ETCustomView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ETCustomView; path = ETCustomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A75C2B0B0FB4684427A2324F2F497 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F777CB8516395284136D9A808CA409AB /* ETCustomView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ETCustomView-Info.plist"; sourceTree = "<group>"; };
+		FC5879D18775C6775F2AE90BA9AA9A38 /* ETCustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ETCustomView-dummy.m"; sourceTree = "<group>"; };
 		FC88DD8905E950F9EE69285985D4F8FA /* Pods-ETCustomView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,7 @@
 		1096B0040DBAF78B760F183C5A46C522 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75D768F85A4F6779A82F036E3313E5BA /* ETCustomView */,
+				8FDE689765F9360B4A7AAFEF75A97C12 /* ETCustomView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -125,12 +125,12 @@
 			path = "Target Support Files/Pods-ETCustomView_Example";
 			sourceTree = "<group>";
 		};
-		49F31FFE2D5A6C357197792A01900958 /* Pod */ = {
+		46C47E72FB2B95E0A1038D5B9A382297 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				552ACAF353565D525CF6E768022B3D43 /* ETCustomView.podspec */,
-				8381365DD70CA9718B149642FC50B562 /* LICENSE */,
-				835E3C5B69C4DA2D9A2DCAA68FFCFD13 /* README.md */,
+				5F813896706ADB2D994F02580604E83A /* ETCustomView.podspec */,
+				E29A75C2B0B0FB4684427A2324F2F497 /* LICENSE */,
+				7E5B5D318DA7A9997607A7EAD6FB6D1A /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -143,20 +143,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		60972CA7274F8D0900D245D1 /* Source */ = {
+		8FDE689765F9360B4A7AAFEF75A97C12 /* ETCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				60972CA8274F8D4D00D245D1 /* ETView.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		75D768F85A4F6779A82F036E3313E5BA /* ETCustomView */ = {
-			isa = PBXGroup;
-			children = (
-				60972CA7274F8D0900D245D1 /* Source */,
-				49F31FFE2D5A6C357197792A01900958 /* Pod */,
-				D766B798B16B9B5EE3355B7C619ABB0E /* Support Files */,
+				6F9C38807D9B0D635B5F20853280C517 /* ETView.swift */,
+				46C47E72FB2B95E0A1038D5B9A382297 /* Pod */,
+				9ABCA8042F8AA03DAEEADC26E0DF675D /* Support Files */,
 			);
 			name = ETCustomView;
 			path = ../..;
@@ -171,10 +163,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		9ABCA8042F8AA03DAEEADC26E0DF675D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C12269E1CF2ED5A40E4CAE9C160D54E8 /* ETCustomView.modulemap */,
+				FC5879D18775C6775F2AE90BA9AA9A38 /* ETCustomView-dummy.m */,
+				F777CB8516395284136D9A808CA409AB /* ETCustomView-Info.plist */,
+				8D163838ABF5DDD601B0603F4FC9B33C /* ETCustomView-prefix.pch */,
+				0CC8B003566380782BDE35E93C00D432 /* ETCustomView-umbrella.h */,
+				81DAE690BE6E2D605670F65B2AF5A4DB /* ETCustomView.debug.xcconfig */,
+				930B9AC9F34145603EB610DF6C53BA5E /* ETCustomView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ETCustomView";
+			sourceTree = "<group>";
+		};
 		B67F44CACE23A6EEEA4F83797A2F4758 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6466C2DD509960FB300057730D31C58 /* ETCustomView.framework */,
+				D6466C2DD509960FB300057730D31C58 /* ETCustomView */,
 				64D0E420496E260A0BB86006E1A90870 /* Pods-ETCustomView_Example */,
 				CD90EBDA06B36094DD3221706852B96C /* Pods-ETCustomView_Tests */,
 			);
@@ -198,21 +205,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D766B798B16B9B5EE3355B7C619ABB0E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D39FAA0030F0F2AC3BC5EB775F71FCDC /* ETCustomView.modulemap */,
-				A8F51085224F59699AB95962DB88EFD8 /* ETCustomView-dummy.m */,
-				1FE56591BB0D6D23A88F78721681ADBA /* ETCustomView-Info.plist */,
-				5A68E93E003D662CF831A8C622C725CC /* ETCustomView-prefix.pch */,
-				ED0EDA253B0ED2A8540C8A35E875EB8F /* ETCustomView-umbrella.h */,
-				6380CCD2D41987E3DB5EDCC8641E258E /* ETCustomView.debug.xcconfig */,
-				A52F75BB4B5F85CA27CE1BC8F2C5F936 /* ETCustomView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ETCustomView";
 			sourceTree = "<group>";
 		};
 		D9E6846444DD9E2A1873C6E921AA8B59 /* Pods-ETCustomView_Tests */ = {
@@ -266,7 +258,7 @@
 			buildConfigurationList = 2DD4FC5F20EAB2F1AD0F60AE2BB90B10 /* Build configuration list for PBXNativeTarget "ETCustomView" */;
 			buildPhases = (
 				4910E1C587E9B744389318BF2859CC72 /* Headers */,
-				B1EE0B2C64155597215687AF9DED550F /* Sources */,
+				8FD3F2B4B415026066FF64FA7306CDB0 /* Sources */,
 				A47E7EEC2153FE2759DCCF4835212F85 /* Frameworks */,
 				5904B7B8EC1C54902E289147CA224C7E /* Resources */,
 			);
@@ -276,7 +268,7 @@
 			);
 			name = ETCustomView;
 			productName = ETCustomView;
-			productReference = D6466C2DD509960FB300057730D31C58 /* ETCustomView.framework */;
+			productReference = D6466C2DD509960FB300057730D31C58 /* ETCustomView */;
 			productType = "com.apple.product-type.framework";
 		};
 		29C13E6DDB69B45AA2DC0C2778B49785 /* Pods-ETCustomView_Example */ = {
@@ -325,11 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					1FCAA15CB574C4FD7AAED8B23909AA07 = {
-						LastSwiftMigration = 1310;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,20 +363,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8FD3F2B4B415026066FF64FA7306CDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AA1134EB4A317B8D1201731DC6C6FF /* ETCustomView-dummy.m in Sources */,
+				EB8E3231C8880DF9F8650815ECF3DA55 /* ETView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9929BFA030AD8E20D6E34D938F9F858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D461C80E7EDD375A0BD1071000340BD /* Pods-ETCustomView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1EE0B2C64155597215687AF9DED550F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A84EC37B39B8959E6E6D0155CD9E9DC /* ETCustomView-dummy.m in Sources */,
-				60972CA9274F8D4D00D245D1 /* ETView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,38 +406,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1155CE8FBEFA54028C038F105089212E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A52F75BB4B5F85CA27CE1BC8F2C5F936 /* ETCustomView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ETCustomView/ETCustomView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ETCustomView/ETCustomView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ETCustomView/ETCustomView.modulemap";
-				PRODUCT_MODULE_NAME = ETCustomView;
-				PRODUCT_NAME = ETCustomView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1CA3844B7199FFFB06D1F3128F09CD0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23549D9A0035A8F3AC641EC0B44DE526 /* Pods-ETCustomView_Tests.release.xcconfig */;
@@ -582,6 +537,38 @@
 			};
 			name = Debug;
 		};
+		BA00748FB84318ED2CC388B81E598255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930B9AC9F34145603EB610DF6C53BA5E /* ETCustomView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ETCustomView/ETCustomView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ETCustomView/ETCustomView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ETCustomView/ETCustomView.modulemap";
+				PRODUCT_MODULE_NAME = ETCustomView;
+				PRODUCT_NAME = ETCustomView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BD71DEB0692AD7EDF97ED8B0B6FD569B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5F1889303E0A16404658A3CA3C10F97 /* Pods-ETCustomView_Tests.debug.xcconfig */;
@@ -608,6 +595,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1B9EB0F62D67C44D0689066ABE4E132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DAE690BE6E2D605670F65B2AF5A4DB /* ETCustomView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ETCustomView/ETCustomView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ETCustomView/ETCustomView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ETCustomView/ETCustomView.modulemap";
+				PRODUCT_MODULE_NAME = ETCustomView;
+				PRODUCT_NAME = ETCustomView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -669,43 +687,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		D95D65874AAA1C62B875E072D55453A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6380CCD2D41987E3DB5EDCC8641E258E /* ETCustomView.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ETCustomView/ETCustomView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ETCustomView/ETCustomView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ETCustomView/ETCustomView.modulemap";
-				PRODUCT_MODULE_NAME = ETCustomView;
-				PRODUCT_NAME = ETCustomView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F475175CF614874610A7B13342C498F4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -755,8 +742,8 @@
 		2DD4FC5F20EAB2F1AD0F60AE2BB90B10 /* Build configuration list for PBXNativeTarget "ETCustomView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D95D65874AAA1C62B875E072D55453A7 /* Debug */,
-				1155CE8FBEFA54028C038F105089212E /* Release */,
+				C1B9EB0F62D67C44D0689066ABE4E132 /* Debug */,
+				BA00748FB84318ED2CC388B81E598255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
