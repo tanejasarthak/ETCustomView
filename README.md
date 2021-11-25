@@ -22,7 +22,7 @@ pod 'ETCustomView'
 
 ## Author
 
-Sarthak.taneja, sarthak.taneja@etmoney.com
+Sarthak.taneja, tanejasarthak138@gmail.com
 
 ## License
 
