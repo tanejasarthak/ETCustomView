@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import ETCustomView
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var backgroundView: ETView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +23,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func segmentedAction(_ sender: Any) {
+        if (sender as! UISegmentedControl).selectedSegmentIndex == 0 {
+            backgroundView.currentMode = CurrentMode.light
+        } else {
+            backgroundView.currentMode = CurrentMode.dark
+        }
+        backgroundView.setup()
+    }
 }
 

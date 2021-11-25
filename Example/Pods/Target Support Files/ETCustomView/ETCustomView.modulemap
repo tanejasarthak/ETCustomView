@@ -1,0 +1,6 @@
+framework module ETCustomView {
+  umbrella header "ETCustomView-umbrella.h"
+
+  export *
+  module * { export * }
+}
