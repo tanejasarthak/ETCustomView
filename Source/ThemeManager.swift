@@ -7,8 +7,8 @@
 
 import Foundation
 
-class ThemeManager {
-    static var shared = ThemeManager()
-    var selectedTheme: CurrentMode?
+public class ThemeManager {
+    static public var shared = ThemeManager()
+    public var selectedTheme: CurrentMode?
     private init() { }
 }
