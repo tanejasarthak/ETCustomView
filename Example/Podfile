@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'ETCustomView_Example' do
-  pod 'ETCustomView', :git => 'https://github.com/tanejasarthak/ETCustomView/blob/master/ETCustomView.podspec'
+  pod 'ETCustomView', :path => '../'
 
   target 'ETCustomView_Tests' do
     inherit! :search_paths
