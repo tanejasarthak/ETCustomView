@@ -13,7 +13,6 @@ public enum CurrentMode {
 }
 
 @IBDesignable public class ETView: UIView {
-    public var currentMode: CurrentMode?
     @IBInspectable private var color: UIColor {
         get {
             return backgroundColor ?? .black
@@ -31,7 +30,7 @@ public enum CurrentMode {
     }
         
     public func setup() {
-        switch currentMode ?? .light {
+        switch ThemeManager.shared.selectedTheme ?? .light {
         case .light:
             backgroundColor = .white
             layer.borderColor = UIColor.black.cgColor

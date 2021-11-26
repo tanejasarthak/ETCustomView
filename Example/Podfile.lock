@@ -1,5 +1,5 @@
 PODS:
-  - ETCustomView (0.1.0)
+  - ETCustomView (0.1.1)
 
 DEPENDENCIES:
   - ETCustomView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ETCustomView: af5a92659dc3841de6743e7424d611d9381ece1c
+  ETCustomView: 053c4d193b6bbfd932d0dced032d393c976a86a8
 
 PODFILE CHECKSUM: a112115b236de4fc664facbb332c2080ef72f6cd
 

@@ -26,9 +26,9 @@ class ViewController: UIViewController {
     
     @IBAction func segmentedAction(_ sender: Any) {
         if (sender as! UISegmentedControl).selectedSegmentIndex == 0 {
-            backgroundView.currentMode = CurrentMode.light
+            ThemeManager.shared.selectedTheme = CurrentMode.light
         } else {
-            backgroundView.currentMode = CurrentMode.dark
+            ThemeManager.shared.selectedTheme = CurrentMode.dark
         }
         backgroundView.setup()
     }
