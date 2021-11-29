@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ETCustomView'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'ETCustomView is a custom UIView.'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sarthak Taneja' => 'tanejasarthak138@gmail.com' }
   s.source = { :git => 'https://github.com/tanejasarthak/ETCustomView.git',
-               :tag => '0.1.4' }
+               :tag => '0.1.5' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
