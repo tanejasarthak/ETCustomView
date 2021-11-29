@@ -20,9 +20,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6f-8L-Fsa" customClass="ETView" customModule="ETCustomView">
-                                <rect key="frame" x="66" y="91" width="243" height="476"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6f-8L-Fsa" customClass="ETCustomView" customModule="ETCustomView">
+                                <rect key="frame" x="66" y="91" width="243" height="389"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="etBorderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="etCornerRaduis">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="etApperance" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZRy-NB-9f7">
                                 <rect key="frame" x="66" y="30" width="243" height="32"/>
@@ -34,28 +44,64 @@
                                     <action selector="segmentedAction:" destination="vXZ-lx-hvc" eventType="valueChanged" id="anV-ji-9JR"/>
                                 </connections>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6N-6d-mL3" customClass="ETCustomButton" customModule="ETCustomView">
+                                <rect key="frame" x="66" y="530" width="243" height="17"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="etType">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="etApperance" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a sample label." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3c-ht-UOm" customClass="ETCustomLabel" customModule="ETCustomView">
+                                <rect key="frame" x="66" y="597" width="165.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="etApperance" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="e6N-6d-mL3" secondAttribute="trailing" constant="50" id="B8f-Ci-gHe"/>
+                            <constraint firstItem="e6N-6d-mL3" firstAttribute="top" secondItem="C6f-8L-Fsa" secondAttribute="bottom" constant="50" id="C0c-7a-wax"/>
+                            <constraint firstItem="d3c-ht-UOm" firstAttribute="top" secondItem="e6N-6d-mL3" secondAttribute="bottom" constant="50" id="ENb-U0-kSg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZRy-NB-9f7" secondAttribute="trailing" constant="50" id="Ff9-Ck-uaX"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="C6f-8L-Fsa" secondAttribute="bottom" constant="100" id="RDO-IO-oex"/>
+                            <constraint firstItem="e6N-6d-mL3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="KNY-iq-oDx"/>
                             <constraint firstItem="ZRy-NB-9f7" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="bQC-Gd-uXr"/>
                             <constraint firstItem="C6f-8L-Fsa" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="e1k-eI-2eg"/>
                             <constraint firstItem="C6f-8L-Fsa" firstAttribute="top" secondItem="ZRy-NB-9f7" secondAttribute="bottom" constant="30" id="i6p-8v-2Ib"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="d3c-ht-UOm" secondAttribute="trailing" constant="50" id="iJH-tA-dZx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="C6f-8L-Fsa" secondAttribute="trailing" constant="50" id="nsB-DD-pPC"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="d3c-ht-UOm" secondAttribute="bottom" constant="50" id="o3W-zV-jEw"/>
                             <constraint firstItem="ZRy-NB-9f7" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="twD-yA-pl0"/>
+                            <constraint firstItem="d3c-ht-UOm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="50" id="yRf-V8-q32"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backgroundView" destination="C6f-8L-Fsa" id="pXD-Of-kit"/>
+                        <outlet property="backgroundView" destination="C6f-8L-Fsa" id="tb6-yj-yvc"/>
+                        <outlet property="sampleButton" destination="e6N-6d-mL3" id="Jba-rr-24n"/>
+                        <outlet property="sampleLabel" destination="d3c-ht-UOm" id="QRx-Wo-t3W"/>
                         <outlet property="segmentedControl" destination="ZRy-NB-9f7" id="C07-Yv-ou5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22" y="131"/>
+            <point key="canvasLocation" x="21.600000000000001" y="130.88455772113943"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="d3c-ht-UOm">
+            <size key="intrinsicContentSize" width="165.5" height="20"/>
+        </designable>
+        <designable name="e6N-6d-mL3">
+            <size key="intrinsicContentSize" width="43" height="17"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

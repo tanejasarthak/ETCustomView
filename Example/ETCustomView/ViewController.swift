@@ -12,7 +12,9 @@ import ETCustomView
 class ViewController: UIViewController {
 
     @IBOutlet weak var segmentedControl: UISegmentedControl!
-    @IBOutlet weak var backgroundView: ETView!
+    @IBOutlet weak var backgroundView: ETCustomView!
+    @IBOutlet weak var sampleButton: ETCustomButton!
+    @IBOutlet weak var sampleLabel: ETCustomLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +32,10 @@ class ViewController: UIViewController {
         } else {
             ThemeManager.shared.selectedTheme = CurrentMode.dark
         }
-        backgroundView.setup()
+    
+        backgroundView.refreshView()
+        sampleButton.refreshView()
+        sampleLabel.refreshView()
     }
 }
 

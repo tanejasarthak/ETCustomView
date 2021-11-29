@@ -12,9 +12,13 @@
 		1D461C80E7EDD375A0BD1071000340BD /* Pods-ETCustomView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D2F3C065AA2DD64CFB61DA94559546 /* Pods-ETCustomView_Example-dummy.m */; };
 		2722D7DE3192AD6E3651AEE54CAD47D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		47BBE3DE5E513B4AE3D6F82F4BD7AC49 /* Pods-ETCustomView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C91E6E2C309A295057DE57C3C27031C4 /* Pods-ETCustomView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60972CD42754BB0100D245D1 /* ETCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60972CD32754BB0100D245D1 /* ETCustomLabel.swift */; };
+		60972CD62754BB1D00D245D1 /* ETCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60972CD52754BB1D00D245D1 /* ETCustomButton.swift */; };
+		60972CD82754BBA300D245D1 /* ETConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60972CD72754BBA300D245D1 /* ETConstants.swift */; };
+		60972CDA2754EB6700D245D1 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60972CD92754EB6700D245D1 /* ColorTheme.swift */; };
 		B09A312C19E45F6A4D11B4CDC102628B /* Pods-ETCustomView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF22F7F4577E5836FF677C7CC1D5C52 /* Pods-ETCustomView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B526A7912C00BD292A6DF82573BE3647 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82086C977DA266A33C16BA3456F2B553 /* ThemeManager.swift */; };
-		C49F60C69D20B79AF8467FB9479A5B35 /* ETView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88705D251DEC153EF2E7E04F2AFCA45B /* ETView.swift */; };
+		C49F60C69D20B79AF8467FB9479A5B35 /* ETCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88705D251DEC153EF2E7E04F2AFCA45B /* ETCustomView.swift */; };
 		CE26DC3CF19F7FD3259EF8823C00BA17 /* ETCustomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DA124B45EC3EF4546A7A2EBC9C0C82 /* ETCustomView-dummy.m */; };
 		DAF790C9EC60CFFC446B24C95882A73B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E3837A6764CF11B773F89110FB7C517B /* Pods-ETCustomView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A1F677EE541938EDF9E054F7E80BFC /* Pods-ETCustomView_Tests-dummy.m */; };
@@ -46,30 +50,34 @@
 		1E176874E5F8E57C9B1EFC59F3A2E0B8 /* Pods-ETCustomView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		23549D9A0035A8F3AC641EC0B44DE526 /* Pods-ETCustomView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		266BF7B95CD111196F6CA8C6646D8477 /* ETCustomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ETCustomView.modulemap; sourceTree = "<group>"; };
-		3C46B66A082493A63BD1BC457579C0D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C46B66A082493A63BD1BC457579C0D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		46BADE40285FD980FC35A636A41846AC /* Pods-ETCustomView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		56D2F3C065AA2DD64CFB61DA94559546 /* Pods-ETCustomView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ETCustomView_Example-dummy.m"; sourceTree = "<group>"; };
 		5A9863B1D07AA29DEB0D0111D00DF653 /* Pods-ETCustomView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ETCustomView_Tests.modulemap"; sourceTree = "<group>"; };
 		5C2D2DB346F23797489C37B7D512F86B /* Pods-ETCustomView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ETCustomView_Example.modulemap"; sourceTree = "<group>"; };
+		60972CD32754BB0100D245D1 /* ETCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETCustomLabel.swift; sourceTree = "<group>"; };
+		60972CD52754BB1D00D245D1 /* ETCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETCustomButton.swift; sourceTree = "<group>"; };
+		60972CD72754BBA300D245D1 /* ETConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETConstants.swift; sourceTree = "<group>"; };
+		60972CD92754EB6700D245D1 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		64D0E420496E260A0BB86006E1A90870 /* Pods-ETCustomView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ETCustomView_Example"; path = Pods_ETCustomView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73C3165E9FB13D0AC3F80DE1C8BFC1BA /* ETCustomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ETCustomView-prefix.pch"; sourceTree = "<group>"; };
 		82086C977DA266A33C16BA3456F2B553 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = Source/ThemeManager.swift; sourceTree = "<group>"; };
 		8614F49D4760D9BA7B709DFA06CDC95A /* Pods-ETCustomView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		88705D251DEC153EF2E7E04F2AFCA45B /* ETView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ETView.swift; path = Source/ETView.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88705D251DEC153EF2E7E04F2AFCA45B /* ETCustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ETCustomView.swift; path = Source/ETCustomView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5DA124B45EC3EF4546A7A2EBC9C0C82 /* ETCustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ETCustomView-dummy.m"; sourceTree = "<group>"; };
 		A96B226E12E78CA7D49F02145D19BD25 /* ETCustomView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ETCustomView.release.xcconfig; sourceTree = "<group>"; };
 		ACE378B1EE4186188FC9773BB11CDCEB /* ETCustomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ETCustomView-umbrella.h"; sourceTree = "<group>"; };
 		B10532056BCB0ADCCC0226D5D96409D2 /* Pods-ETCustomView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Example-Info.plist"; sourceTree = "<group>"; };
-		B429CA596C10D0122B84A8D3D81E80A4 /* ETCustomView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ETCustomView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B429CA596C10D0122B84A8D3D81E80A4 /* ETCustomView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ETCustomView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9A1F677EE541938EDF9E054F7E80BFC /* Pods-ETCustomView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ETCustomView_Tests-dummy.m"; sourceTree = "<group>"; };
 		C1958ADEB9613B5B6B9C24B32F21E85E /* Pods-ETCustomView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ETCustomView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C33C2A292DEA593F25283CCB1D193A5F /* Pods-ETCustomView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5F1889303E0A16404658A3CA3C10F97 /* Pods-ETCustomView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ETCustomView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C91E6E2C309A295057DE57C3C27031C4 /* Pods-ETCustomView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ETCustomView_Example-umbrella.h"; sourceTree = "<group>"; };
 		CD90EBDA06B36094DD3221706852B96C /* Pods-ETCustomView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ETCustomView_Tests"; path = Pods_ETCustomView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5E9EC4A059EDCF50CB470AAAE1FC05C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5E9EC4A059EDCF50CB470AAAE1FC05C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6466C2DD509960FB300057730D31C58 /* ETCustomView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ETCustomView; path = ETCustomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC88DD8905E950F9EE69285985D4F8FA /* Pods-ETCustomView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ETCustomView_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,10 +130,14 @@
 		505E2DED8A67A377FBBD8AFE532ABF37 /* ETCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				88705D251DEC153EF2E7E04F2AFCA45B /* ETView.swift */,
+				88705D251DEC153EF2E7E04F2AFCA45B /* ETCustomView.swift */,
+				60972CD32754BB0100D245D1 /* ETCustomLabel.swift */,
+				60972CD52754BB1D00D245D1 /* ETCustomButton.swift */,
 				82086C977DA266A33C16BA3456F2B553 /* ThemeManager.swift */,
 				737E03D63DC9546A91A20E0E15262A50 /* Pod */,
 				8DD1AD7EE9D4D2CA2AD73761BF16BE0E /* Support Files */,
+				60972CD72754BBA300D245D1 /* ETConstants.swift */,
+				60972CD92754EB6700D245D1 /* ColorTheme.swift */,
 			);
 			name = ETCustomView;
 			path = ../..;
@@ -370,8 +382,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60972CD82754BBA300D245D1 /* ETConstants.swift in Sources */,
 				CE26DC3CF19F7FD3259EF8823C00BA17 /* ETCustomView-dummy.m in Sources */,
-				C49F60C69D20B79AF8467FB9479A5B35 /* ETView.swift in Sources */,
+				60972CDA2754EB6700D245D1 /* ColorTheme.swift in Sources */,
+				C49F60C69D20B79AF8467FB9479A5B35 /* ETCustomView.swift in Sources */,
+				60972CD62754BB1D00D245D1 /* ETCustomButton.swift in Sources */,
+				60972CD42754BB0100D245D1 /* ETCustomLabel.swift in Sources */,
 				B526A7912C00BD292A6DF82573BE3647 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,8 +578,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
